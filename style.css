@@ -1,0 +1,130 @@
+body {
+      margin: 0;
+      margin-top: 50px;
+      font-family: sans-serif;
+      color: white;
+      background-color: #eee;
+}
+
+header {
+    font-size: 2em;
+    color: black;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+    padding-left: 40px;
+}
+
+header * {
+      display: inline;
+      height: 50px;
+}
+
+header ul {
+      padding-left: 40px;
+}
+
+header li {
+      margin-left: 35px;
+}
+
+section {
+      border-style: solid;
+      border-color: black;
+      border-width: thin;
+      border
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+#main {
+    height: 100vh;
+}
+
+/*TO BE REMOVED ONCE CONTENT IS ADDED TO ABOUT*/
+#about {
+    height: 100vh;
+}
+
+#contact {
+    height: 100vh;
+}
+
+#main div {
+    margin-left: 50px;
+}
+
+#main div img {
+    align-items: center;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#main div p {
+    font-size: 1.25em;
+}
+
+footer {
+    font-size: 0.9em;
+    background-color: grey;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+#main h1 {
+    font-size: 6em;
+}
+
+#about h1 {
+    font-size: 5em;
+}
+
+#contact h1 {
+    font-size: 5em;
+}
+
+#contact ul li {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+#main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)), url('laptop.jpg');
+}
+
+#about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)), url('code.jpg');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55),rgba(0, 0, 0, 0.55)), url('desktop.jpg');
+}
